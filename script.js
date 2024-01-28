@@ -9,7 +9,7 @@ const extendHex = (shortHex) => {
   }
 
   // Convert to uppercase and return the extended hex code with '#'
-  return '#' + shortHex.toUpperCase();
+  return '#' + shortHex;
 }
 
 
